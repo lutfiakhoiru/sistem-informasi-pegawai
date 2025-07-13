@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminAuthController;
-use App\Http\Controllers\admin\DataPegawaiController;
-use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\Admin\DataPegawaiController;
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\PegawaiAuthController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\Admin\BiodataController as AdminBiodataController;
