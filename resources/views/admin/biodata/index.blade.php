@@ -48,7 +48,7 @@
         <div class="row ">
             @if($data->foto)
             <div class="flex justify-center mb-3">
-                <img style="border: 1px solid #000;width: 150px; height: 200px; object-fit: cover;" src="{{ url('foto').'/'.$data->foto }}" />
+                <img style="border: 1px solid #000;width: 150px; height: 200px; object-fit: cover;" src="{{ asset('foto/' . $data->foto)  }}" />
             </div>
             @else
             <span class="badge badge-danger"> belum ada foto</span>
