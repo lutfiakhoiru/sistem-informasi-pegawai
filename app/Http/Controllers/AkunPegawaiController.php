@@ -42,7 +42,7 @@ class AkunPegawaiController extends Controller
     {
         $request->validate([
             'nama' => 'required|string|max:100',
-            'nip' => 'required|exists:biodata,nip|unique:pegawai,nip',
+            'nip' => 'required|exists:Biodata,NIP|unique:pegawai,nip',
             'password' => 'required|min:6|confirmed',
         ]);
 
