@@ -68,7 +68,7 @@ class AkunPegawaiController extends Controller
         $akun = Pegawai::findOrFail($id);
 
         $request->validate([
-            'nip' => 'required|exists:biodata,nip|unique:users,nip,' . $akun->id,
+            'nip' => 'required|exists:Biodata,nip|unique:users,nip,' . $akun->id,
             'nama' => 'required|string|max:100',
         ]);
 
