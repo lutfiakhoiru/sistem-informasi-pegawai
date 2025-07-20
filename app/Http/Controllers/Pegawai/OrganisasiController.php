@@ -34,10 +34,10 @@ class OrganisasiController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'nama'=>'required',
+            'nama_organisasi'=>'required',
            
         ],[
-            'nama.required'=>'Nama wajib diisi',
+            'nama_organisasi.required'=>'Nama wajib diisi',
         ]);
 
         $pegawai = Auth::guard('pegawai')->user();
