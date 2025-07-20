@@ -25,7 +25,7 @@ class PegawaiAuthController extends Controller
         }
 
         return back()->withErrors([
-            'nip' => 'The provided credentials do not match our records.',
+            'nip' => 'NIP tidak terdaftar.',
         ]);
     }
 
