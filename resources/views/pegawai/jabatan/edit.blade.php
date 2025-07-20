@@ -3,7 +3,7 @@
 
 
 <div class=" pb-5">
-    <form action="{{ route('pegawai.jabatan.update') }}" method="POST">
+    <form action="{{ route('pegawai.jabatan.update',$jabatan->id_pekerjaan) }}" method="POST">
         @csrf
         @method('PUT')
         <p class=" text-2xl font-bold leading-7 text-gray-900 pt-2 pb-3 text-center "> Edit Pengalaman Jabatan/Pekerjaan</p>
