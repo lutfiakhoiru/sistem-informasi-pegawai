@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('NIP');
             $table->string('nama_organisasi');
             $table->string('kedudukan')->nullable();
-            $table->string('tahun')->nullable();
+            $table->int('tahun')->nullable();
             $table->string('tempat')->nullable();
             $table->string('nama_pimpinan')->nullable();
         });

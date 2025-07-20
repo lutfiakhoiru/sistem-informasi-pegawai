@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id_penghargaan');
             $table->string('NIP');
             $table->string('nama');
-            $table->string('tahun')->nullable();
+            $table->int('tahun')->nullable();
             $table->string('instansi')->nullable();
         });
     }
