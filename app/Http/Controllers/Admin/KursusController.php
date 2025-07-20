@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\biodata;
-use App\Models\kursus;
+use App\Models\Biodata;
+use App\Models\Kursus;
 
 class KursusController extends Controller
 {
