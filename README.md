@@ -20,7 +20,8 @@ Aplikasi berbasis web untuk mengelola data pegawai  menggunakan Laravel dan MySQ
 - Upload Foto
 
 ## Screenshot
-<img width="1920" height="1080" alt="Screenshot 2025-06-04 210121" src="https://github.com/user-attachments/assets/fc043d2b-1a76-47f4-85a5-b16956940710" />
+<img width="1742" height="866" alt="Screenshot 2025-06-04 210121 - Copy" src="https://github.com/user-attachments/assets/da101690-aa74-4231-adb5-b017eb33fba3" />
+
 
 ## Author
 Lutfia Khoiru Zahro
